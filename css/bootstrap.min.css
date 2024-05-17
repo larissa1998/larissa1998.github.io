@@ -2205,16 +2205,22 @@ fieldset[disabled] a.btn {
 }
 
 .btn-outline-primary {
-    color: #007bff;
+    font-weight: 400;
+    font-size: 0.8571em;
+    line-height: 1.35em;
+    margin: 5px 1px;
+    border-radius: 0.1875rem;
+    border: 2px solid #3b2471;
+    padding: 11px 22px;
+    cursor: pointer;
     background-color: transparent;
-    background-image: none;
-    border-color: #007bff
+    color: #3b2471;
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff
+    background-color: #3b2471;
+    border-color: #3b2471
 }
 
 .btn-outline-primary.focus,
@@ -2232,8 +2238,8 @@ fieldset[disabled] a.btn {
 .btn-outline-primary:active,
 .show>.btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff
+    background-color: #8564ce;
+    border-color: #8564ce
 }
 
 .btn-outline-secondary {
