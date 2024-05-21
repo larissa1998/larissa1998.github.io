@@ -2399,8 +2399,7 @@ body {
   color: #FFFFFF; }
   .nav-pills.nav-pills-neutral .nav-item .nav-link.active, .nav-pills.nav-pills-neutral .nav-item .nav-link.active:focus, .nav-pills.nav-pills-neutral .nav-item .nav-link.active:hover {
     background-color: #FFFFFF;
-    color: #3b2471; }
-
+    color: #3b2471;}
 .nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
   background-color: #3b2471; }
 
@@ -5097,7 +5096,7 @@ Created using IcoMoon - icomoon.io
   transform: scale(1); }
 
 .gallery figure.cc-effect:hover figcaption:before {
-  background: rgba(27, 23, 23, 0.5); }
+  background: rgba(27, 23, 23, 0.75); }
 
 .gallery figure.cc-effect:hover .h4,
 .gallery figure.cc-effect:hover p,

@@ -24,6 +24,14 @@
         }
       </style>
     </noscript>
+    <script>
+        const myModal = document.getElementById('myModal')
+        const myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', () => {
+          myInput.focus()
+        })
+    </script>
   </head>
   <body id="top">
     <header>
@@ -364,27 +372,30 @@
                         data-toggle="tab"
                         href="#web-development"
                         role="tablist"
-                        ><i class="fa fa-laptop" aria-hidden="true"></i
-                      ></a>
+                        title="Fullstack developer"
+                        ><i class="fa fa-laptop" aria-hidden="true"></i>
+                      </a>
                     </li>
                     <li class="nav-item">
                       <a
                         class="nav-link"
                         data-toggle="tab"
                         href="#graphic-design"
+                        title="UX/UI Design"
                         role="tablist"
                         ><i class="fa fa-picture-o" aria-hidden="true"></i
                       ></a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                       <a
                         class="nav-link"
                         data-toggle="tab"
                         href="#Photography"
+                        title="Design"
                         role="tablist"
                         ><i class="fa fa-camera" aria-hidden="true"></i
                       ></a>
-                    </li>
+                    </li> -->
                   </ul>
                 </div>
               </div>
@@ -469,15 +480,15 @@
                         data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom"
                       >
-                        <a href="#graphic-design">
+                        <a data-toggle="modal" data-target="#myModal">
                           <figure class="cc-effect">
                             <img
-                              src="images/graphic-design-1.jpg"
+                              src="images/diabetControlcapa.webp"
                               alt="Image"
                             />
                             <figcaption>
-                              <div class="h4">Triangle Pattern</div>
-                              <p>Graphic Design</p>
+                              <div class="h4">DiabetControl</div>
+                              <p>blood glucose control design</p>
                             </figcaption>
                           </figure></a
                         >
@@ -490,12 +501,12 @@
                         <a href="#graphic-design">
                           <figure class="cc-effect">
                             <img
-                              src="images/graphic-design-2.jpg"
+                              src="images/gobeercapa.webp"
                               alt="Image"
                             />
                             <figcaption>
-                              <div class="h4">Abstract Umbrella</div>
-                              <p>Graphic Design</p>
+                              <div class="h4">GoBeer</div>
+                              <p>Design of a delivery application for a variety of alcoholic drinks</p>
                             </figcaption>
                           </figure></a
                         >
@@ -510,12 +521,12 @@
                         <a href="#graphic-design">
                           <figure class="cc-effect">
                             <img
-                              src="images/graphic-design-3.jpg"
+                              src="images/yucacapa.webp"
                               alt="Image"
                             />
                             <figcaption>
-                              <div class="h4">Cube Surface Texture</div>
-                              <p>Graphic Design</p>
+                              <div class="h4">Yuca Redesign</div>
+                              <p>Yuca coliving redesign</p>
                             </figcaption>
                           </figure></a
                         >
@@ -528,12 +539,12 @@
                         <a href="#graphic-design">
                           <figure class="cc-effect">
                             <img
-                              src="images/graphic-design-4.jpg"
+                              src="images/birdcapa.webp"
                               alt="Image"
                             />
                             <figcaption>
-                              <div class="h4">Abstract Line</div>
-                              <p>Graphic Design</p>
+                              <div class="h4">BirdRecog</div>
+                              <p>Bird recognition sound</p>
                             </figcaption>
                           </figure></a
                         >
@@ -542,7 +553,7 @@
                   </div>
                 </div>
               </div>
-              <div class="tab-pane" id="Photography" role="tabpanel">
+              <!-- <div class="tab-pane" id="Photography" role="tabpanel">
                 <div class="ml-auto mr-auto">
                   <div class="row">
                     <div class="col-md-6">
@@ -611,7 +622,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -1010,6 +1021,25 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">DiabetControl</h4>
+            </div>
+            <div class="modal-body">
+              <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Read Medium</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">View Figma</button>
+            </div>
+          </div>
+      
         </div>
       </div>
     </div>
