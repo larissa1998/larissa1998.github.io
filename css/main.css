@@ -5096,6 +5096,7 @@ Created using IcoMoon - icomoon.io
   transform: scale(1); }
 
 .gallery figure.cc-effect:hover figcaption:before {
+  cursor: pointer;
   background: rgba(27, 23, 23, 0.75); }
 
 .gallery figure.cc-effect:hover .h4,
@@ -5117,6 +5118,18 @@ Created using IcoMoon - icomoon.io
   font-size: 18px;
   letter-spacing: 1px; }
 
+.modal-footer {
+  display: block;
+}
+
+.modal-content{
+  align-items: center;
+  text-align: justify;
+}
+
+.close {
+  cursor: pointer;
+}
 /* Body */
 /* Profile Page Background Style */
 .page-header {
