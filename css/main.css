@@ -5143,10 +5143,11 @@ Created using IcoMoon - icomoon.io
   .page-header .btn {
     width: 200px; }
 
-.viewmore {
-  display: block;
-  text-align: right;
-  margin-top: 10px;
+
+
+.colorP{
+  color: #3b2471;
+  text-decoration: none;
 }
 /* Profile Image Style */
 @-webkit-keyframes pulsate {
@@ -5304,3 +5305,8 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0; }
+.viewmore {
+  display: block;
+  text-align: end;
+  margin-top: 10px;
+}
